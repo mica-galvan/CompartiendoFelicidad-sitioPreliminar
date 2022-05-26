@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Spider-Home';
+    src:url('Spider-Home.ttf.woff') format('woff'),
+        url('Spider-Home.ttf.svg#Spider-Home') format('svg'),
+        url('Spider-Home.ttf.eot'),
+        url('Spider-Home.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

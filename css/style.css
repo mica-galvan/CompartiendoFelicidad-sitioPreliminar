@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4b9baf;
+    --primary: #ff6c09;
     --light: #cef7b2;
     --dark: #2c5466;
 }
@@ -22,7 +22,18 @@
 }
 
 
+/*ESTILO A*/
+
+/* FIN ESTILO A*/
+
+
 /***PISA BT CON ESTILOS PROPIOS***/
+
+.CF-font-family {
+    font-family: 'Luckiest Guy', cursive !important;
+    letter-spacing: 2.5px !important;
+    color: #ffbc7d !important;
+}
 
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,23 +52,57 @@ h6{
 }
 
 .img-galeria  {
-    width: 100% !important;
+    object-fit: cover !important;
+    width: 100% !important ;
     height: 600px !important;
 }
 
+.img-galeria-team {
+    object-fit: cover !important;
+    width: 100% !important ;
+    height: 400px !important;
+}
+
+.object-fit {
+    object-fit: cover !important;
+    width: 33% !important ;
+    height: 400px !important;
+}
+ 
+/* .box{
+    overflow: hidden !important;
+}
+
+.boxes{
+    float: left;
+    margin: 20px;
+    background-color: grey;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+} */
 .color-fondo {
-    background-color: #dbc5ff;
+    background-color: #fdba55c5;
 }
 .main-color{
-color: #3d946b !important;
+color: #ff8800 !important;
 }
 
 .second-color {
-color: #ca6cae !important;
+color: #b95c1d !important;
 }
 
+.a-ig {
+    color: var(--primary) !important;
+}
 
+.a-fb {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
 
+ul li {
+    list-style: none;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -126,7 +171,8 @@ nav {
 }
 
 .navbar img {
-    height: 109px !important;
+    margin-top: 13px !important;
+    height: 90px !important;
     width: auto;
 }
 .navbar .dropdown-toggle::after {
@@ -141,7 +187,7 @@ nav {
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #000000;
+    color: #eb790e;
     font-size: 21px;
     outline: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -149,7 +195,7 @@ nav {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--dark);
+    color: var(--primary);
     font-size: 20px;
     transition: 0,3s ;
 }
@@ -173,7 +219,7 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(0, 0, 0);
+    color: var(--primary);
     font-weight: 500;
 }
 
@@ -219,7 +265,7 @@ nav {
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
-        height: calc(100% - 110px) !important;
+        height: 100% !important;
         object-fit: cover;
     }
 }
